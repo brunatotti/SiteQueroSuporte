@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img,
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, b, i {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline
+}
+body {
+    line-height: 1
+}
+:focus {
+    outline: 0
+}
+ol, ul {
+    list-style: none
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: ""
+}
+blockquote, q {
+    quotes: "" ""
+}
+input, textarea {
+    margin: 0;
+    padding: 0
+}
+hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #000;
+    background-color: #000;
+    height: 1px
+}
+10. CSSLab CSS Reset
+Técnica de CSS Reset proposta pelo site CSSLab:
+
+html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+:focus {
+    outline: 0;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+a img, iframe {
+    border: none;
+}
+ol, ul {
+    list-style: none;
+}
+input, textarea, select, button {
+    font-size: 100%;
+    font-family: inherit;
+}
+select {
+    margin: inherit;
+}
+/* Fixes incorrect placement of numbers in ol's in IE6/7 */
+ol { margin-left:2em; }
+/* == clearfix == */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}

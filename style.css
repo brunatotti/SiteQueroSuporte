@@ -1,0 +1,29 @@
+.links; a:visited; a:active  { 
+    text-decoration:none; 
+}
+
+.bg-1 {
+    background-color: white;
+    color: #123c50;
+    position: fixed;
+}
+.bg-2 {
+    background-color: #123c50;
+    padding: 200px 0px 100px 0px;
+    color: white;
+}
+.infos-col {
+    padding: 20px 0px 50px 0px;
+}
+.nav-espaco {
+    padding-left: 30px;
+}
+.main-btn {
+    color: #35667d;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    font-weight: bold;
+}
+.infos-col {
+    
+}
